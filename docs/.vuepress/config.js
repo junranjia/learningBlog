@@ -1,6 +1,6 @@
 module.exports = {
 	//设置标题
-  	title: 'JJR 的中文博客',
+  	title: 'Lawrence的中文博客',
   	description: '主要是一些JJR的个人博客',
 
  	//设置主题为vuepress-theme-reco
@@ -24,7 +24,7 @@ module.exports = {
         nav: [
             { text: '首页', link: '/' },
             { 
-                text: 'JJR的学习博客', 
+                text: 'Lawrence的个人主页', 
                 items: [
                     { text: 'Github', link: '待添加' },
                 ]
@@ -33,26 +33,26 @@ module.exports = {
         //输出侧边栏
         sidebar: [
             {
-                title: '欢迎学习',
+                title: '主页（待更改）',
                 path: '/',
                 collapsable: false, // 不折叠
                 children: [
-                    { title: "学前必读", path: "/" }
+                    { title: "主页（待更改）", path: "/" }
                 ]
             },
             {
               title: "基础学习",
-              path: '/handbook/ConditionalTypes',
+              path: '/handbook/',
               collapsable: false, // 不折叠
               children: [
-                { title: "条件类型", path: "/handbook/ConditionalTypes" },
-                { title: "泛型", path: "/handbook/Generics" }
+                { title: "第一篇博客", path: "/handbook/blog1-" },
+                { title: "第二篇博客", path: "/handbook/blog2-" }
               ],
             }
           ]
     },
 
-    //添加github仓库
+    //添加访问前缀
     base: '/learningBlog/'
 
 
